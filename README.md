@@ -9,3 +9,13 @@ Guess-The-Price is a webpage created by me and my team. It is an online game whe
 
 # Register Page
 ![](Screenshots/Register_Page.png "Register Page")
+
+# GamePlay
+![](Screenshots/Gameplay1.png "Gameplay1")
+![](Screenshots/Gameplay2.png "Gameplay2")
+
+# Results
+![](Screenshots/Result.png "Result")
+
+# Thank You Page
+![](Screenshots/Thank_You_Page.png "Thank You Page")
