@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>Login</title>
+        <link rel="stylesheet" href="./login_styles.css">
+        <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-database.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-auth.js"></script>
+    </head>
+    <body>
+        <div class="s1">
+            <div class="Form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log in</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+            </div>
+            <form id="login" class="input-group">
+                <input type="text" id="email" class="input-field" placeholder="Email" required>
+                <input type="password" id="password" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+                <button type="button" class="submit-btn" onclick="logUser()">Log in</button>
+
+            </form>
+            <form id="register" class="input-group">
+                <input type="text" id="newusername" class="input-field" placeholder="User Name" required>
+                <input type="text" id="newemail" class="input-field" placeholder="Email Id" required>
+                <input type="password" id="newpass" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" id="check" class="check-box" required><span>I agree to T&C</span>
+                <button type="button" class="submit-btn" onclick="setUser()">Register</button>
+            </form>
+            </div>
+        </div>
+        <script src="./userdb.js"></script>
+    </body>
+</html>
