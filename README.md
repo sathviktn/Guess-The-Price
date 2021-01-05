@@ -4,7 +4,7 @@ Guess-The-Price is a webpage created by me and my team. It is an online game whe
 # Steps to play the game
 Note: Make sure you have a static internet connection.
 
-Step 1. Open the Login page. Recommended browser -> Google Chrome and Mozilla Firefox. <br/>
+<b>Step 1.</b> Open the Login page. Recommended browser -> Google Chrome and Mozilla Firefox. <br/>
 Step 2. In the Login page, go to register section by clicking the register button, if this is the first time you are playing. Fill the boxes, agree the T&C and register to our site. After clicking register, Wait for a few seconds for it to reload. <br/>
 Step 3. Now after successfull registeration, you can now use your login details to log into the site. Wait for a few seconds for it to load the home page. <br/>
 Step 4. In the Home page, you can start the game by clicking the "start a new game" button. <br/>
